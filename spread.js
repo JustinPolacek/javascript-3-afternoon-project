@@ -50,7 +50,11 @@ function addNums(num1, num2, num3) {
 // code here
 addNums(...numbers)
 
-let result = {...numbers}
+let result = {numbers}
+
+
+
+
 
 
 ////////// PROBLEM 4 //////////
