@@ -176,13 +176,10 @@ var deleteTheBigNumbers = {
   Write a for in loop that deletes every property from the object deleteTheBigNumbers whose value is greater than 100.
 */
 
-const deleteBig = (obj) => {
-  for (key in obj) {
-    if (obj[key] > 100) delete obj[key];
+for( let key in deleteTheBigNumbers){
+  if( deleteTheBigNumbers[key] > 100){
+    delete deleteTheBigNumbers[key]
   }
-{
-  return obj;
-}
 }
 
 
@@ -222,16 +219,20 @@ return obj
   (hint: the method includes() may be of use...)
 */
 
-function hiddenTreasure(obj){
-  for(key in obj)
-  if(key.includes(''))['']
-  else{
-  delete obj[key]
+
+let hiddenTreasure =  obj =>{
+  for(let key in obj){
+    if(obj[key].includes('treasure')){
+      obj[key]
+    }else{
+      delete obj[key]
+    }
   }
-
+  
+  
+  
   return obj
-}
 
-{
- 
+
+
 }
